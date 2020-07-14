@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapcsolat-Anna Gerbeaud</title>
+</head>
+
+<body>
+    <ul>
+        <li> <a href="/">Főoldal</a> </li>
+        <li> <a href="/másik/kínálat.html">Kínálat</a> </li>
+        <li> <a href="/másik/kapcsolat.html">Kapcsolat</a> </li>
+        <li> <a href="/rólunk.html">Rólunk</a> </li>
+    </ul>
+
+    <!--kép linkként működik, a target azért kell, hogy uj fülön nyíljon meg, 
+        és azért a blank, hogy egy üres oldalon-->
+    <a target="_blank" href="/index.html">
+        <img width=" 90 " src="/img/Hungarian-gerbeaud-cake-B-e1490005682523.jpeg" alt="Home">
+    </a>
+
+    <table>
+        <!--táblázat címe a caption tag-ek közé kerül, táblázat fejléce (thead),
+             ezen belül a cellák neveit th-val jelöljük-->
+        <caption>Nyitvatartás</caption>
+        
+        <thead>
+            <tr>
+                <th>Nap</th>
+                <th>Nyitva</th>
+                <th>Zárva</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>hétfő-péntek</td>
+                <td>09:00</td>
+                <td rowspan="2">21:00</td>
+            </tr>
+            <tr>
+                <td>szombat</td>
+                <td>10:00</td>
+
+            </tr>
+            <tr>
+                <td>vasárnap</td>
+                <td colspan="2">zárva</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    &copy; 2019
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
