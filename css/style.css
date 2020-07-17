@@ -1,0 +1,22 @@
+h1 {
+    color: brown;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+li{
+    color: coral;
+}
+
+
+img {
+    height: 500px;
+    animation: mymove 12s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {
+      -webkit-filter: grayscale(100%); 
+      filter: grayscale(100%);
+    }
+  }
